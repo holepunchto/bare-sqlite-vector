@@ -6,10 +6,11 @@ find_package(cmake-fetch REQUIRED PATHS node_modules/cmake-fetch)
 project(bare_sqlite_vector C)
 
 fetch_package(
-  "github:sqliteai/sqlite-vector"
+  "github:sqliteai/sqlite-vector#0.9.95"
   SOURCE_DIR sqlite_vector
   PATCHES
     patches/001-windows-strcasecmp-shim.patch
+    patches/002-windows-fp16-intrin-include.patch
 )
 
 add_library(sqlite_vector)
