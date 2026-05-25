@@ -1,0 +1,44 @@
+{
+  "name": "bare-sqlite-vector",
+  "version": "0.0.0",
+  "description": "SQLite Vector bindings for Bare",
+  "exports": {
+    "./package": "./package.json",
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "binding.c",
+    "binding.js",
+    "CMakeLists.txt",
+    "prebuilds",
+    "NOTICE"
+  ],
+  "addon": true,
+  "scripts": {
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte",
+    "test": "brittle-bare --coverage test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-sqlite-vector.git"
+  },
+  "author": "Holepunch",
+  "license": "(Apache-2.0 AND Elastic-2.0)",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-sqlite-vector/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-sqlite-vector#readme",
+  "dependencies": {
+    "bare-sqlite": "^0.1.3"
+  },
+  "devDependencies": {
+    "brittle": "^3.1.1",
+    "cmake-bare": "^1.1.6",
+    "cmake-fetch": "^1.5.1",
+    "lunte": "^1.6.0",
+    "prettier": "^3.4.2",
+    "prettier-config-holepunch": "^2.0.0"
+  }
+}
