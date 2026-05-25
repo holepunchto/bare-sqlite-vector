@@ -1,6 +1,6 @@
 {
   "name": "bare-sqlite-vector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "SQLite Vector bindings for Bare",
   "exports": {
     "./package": "./package.json",
