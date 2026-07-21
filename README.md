@@ -31,6 +31,7 @@ const rows = db
 ```
 
 <!-- bare-refgen:api start -->
+
 ## API
 
 ### Functions
@@ -43,9 +44,9 @@ Register the vector extension's SQL functions and virtual table modules on the g
 
 **Parameters**
 
-| Parameter | Type | Default | Description |
-| --- | --- | --- | --- |
-| `db` | `DatabaseSync` | — | An open `DatabaseSync` connection from `bare-sqlite` to register the vector functions and virtual table modules on. |
+| Parameter | Type           | Default | Description                                                                                                         |
+| --------- | -------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
+| `db`      | `DatabaseSync` | —       | An open `DatabaseSync` connection from `bare-sqlite` to register the vector functions and virtual table modules on. |
 
 **Throws**
 
