@@ -51,6 +51,7 @@ Register the vector extension's SQL functions and virtual table modules on the g
 **Throws**
 
 - `DATABASE_NOT_OPEN` — `db` is not open.
+
 <!-- bare-refgen:api end -->
 
 ## License
