@@ -32,7 +32,9 @@ const rows = db
 
 ## API
 
-See the [full API reference](https://docs.pears.com/reference/bare/modules/bare-sqlite-vector).
+See the [`bare-sqlite-vector` reference][reference].
+
+[reference]: https://docs.pears.com/reference/bare/modules/bare-sqlite-vector
 
 ## License
 
