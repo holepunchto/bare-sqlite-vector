@@ -30,29 +30,9 @@ const rows = db
   .all()
 ```
 
-<!-- bare-refgen:api start -->
-
 ## API
 
-### Functions
-
-#### `register(db: DatabaseSync): void`
-
-[source](https://github.com/holepunchto/bare-sqlite-vector/blob/v0.1.1/index.d.ts#L3)
-
-Register the vector extension's SQL functions and virtual table modules on the given `bare-sqlite` connection. `db` must be an open `DatabaseSync` instance from `bare-sqlite`.
-
-**Parameters**
-
-| Parameter | Type           | Default | Description                                                                                                         |
-| --------- | -------------- | ------- | ------------------------------------------------------------------------------------------------------------------- |
-| `db`      | `DatabaseSync` | —       | An open `DatabaseSync` connection from `bare-sqlite` to register the vector functions and virtual table modules on. |
-
-**Throws**
-
-- `DATABASE_NOT_OPEN` — `db` is not open.
-
-<!-- bare-refgen:api end -->
+See the [full API reference](https://docs.pears.com/reference/bare/modules/bare-sqlite-vector).
 
 ## License
 
