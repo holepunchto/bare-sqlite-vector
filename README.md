@@ -32,13 +32,7 @@ const rows = db
 
 ## API
 
-#### `vector.register(db)`
-
-Register the vector extension's SQL functions and virtual table modules on the given `bare-sqlite` connection. `db` must be an open `DatabaseSync` instance from `bare-sqlite`.
-
-Registration is per-connection; each new `DatabaseSync` that needs vector functions must call `register` again. The call is idempotent: Invoking it more than once on the same connection is a no-op.
-
-Throws `DATABASE_NOT_OPEN` if `db` has been closed.
+See the [`bare-sqlite-vector` reference](https://docs.pears.com/reference/bare/modules/bare-sqlite-vector).
 
 ## License
 
