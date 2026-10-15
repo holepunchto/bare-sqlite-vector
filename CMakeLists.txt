@@ -11,6 +11,7 @@ fetch_package(
   PATCHES
     patches/001-windows-strcasecmp-shim.patch
     patches/002-windows-fp16-intrin-include.patch
+    patches/003-linux-strcasestr-gnu-source.patch
 )
 
 add_library(sqlite_vector)

@@ -1,0 +1,15 @@
+diff --git a/src/sqlite-vector.c b/src/sqlite-vector.c
+index 1dc7d0a..89640b5 100644
+--- a/src/sqlite-vector.c
++++ b/src/sqlite-vector.c
+@@ -5,6 +5,10 @@
+ //  Created by Marco Bambini on 16/06/25.
+ //
+ 
++#ifndef _GNU_SOURCE
++#define _GNU_SOURCE
++#endif
++
+ #include "fp16/fp16.h"
+ #include "sqlite-vector.h"
+ #include "distance-cpu.h"
