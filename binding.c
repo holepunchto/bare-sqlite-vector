@@ -1,10 +1,9 @@
 #include <assert.h>
-#include <bare.h>
+#include <bare/module.h>
 #include <js.h>
 #include <sqlite-vector.h>
 #include <sqlite3.h>
 #include <utf.h>
-#include <uv.h>
 
 typedef struct {
   sqlite3 *handle;
